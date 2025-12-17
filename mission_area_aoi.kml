@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Disaster Mission - Area of Interest</name>
+    <description>Flood affected coastal town - AOI</description>
+
+    <Placemark>
+        <name>AOI Polygon</name>
+        <Style>
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7d00ff00</color>
+            </PolyStyle>
+        </Style>
+
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        78.486600,17.385100,0
+                        78.488500,17.386000,0
+                        78.491000,17.384200,0
+                        78.489200,17.382800,0
+                        78.486800,17.383500,0
+                        78.486600,17.385100,0
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+</Document>
+</kml>
