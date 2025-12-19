@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Mission 1 – Complex Disaster AOI (20 Acres)</name>
+    <description>
+        Highly irregular flood-affected coastal town area.
+        Designed to test coverage path planning robustness.
+    </description>
+
+    <Placemark>
+        <name>Complex AOI Polygon</name>
+
+        <Style>
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7dff0000</color>
+            </PolyStyle>
+        </Style>
+
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        78.484900,17.385800,0
+                        78.487200,17.387200,0
+                        78.489600,17.386600,0
+                        78.491300,17.388000,0
+                        78.493800,17.386900,0
+                        78.495200,17.384700,0
+                        78.493400,17.382900,0
+                        78.491000,17.381500,0
+                        78.488200,17.382300,0
+                        78.486500,17.381000,0
+                        78.484700,17.382200,0
+                        78.483900,17.384300,0
+                        78.484900,17.385800,0
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+</Document>
+</kml>

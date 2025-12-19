@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+    <name>Disaster Mission - Test AOI 02</name>
+    <description>
+        Medium complexity urban flood-affected area.
+        Designed for refined coverage path testing.
+    </description>
+
+    <Placemark>
+        <name>AOI Polygon</name>
+
+        <Style>
+            <LineStyle>
+                <color>ff0000ff</color>
+                <width>2</width>
+            </LineStyle>
+            <PolyStyle>
+                <color>7d00ff00</color>
+            </PolyStyle>
+        </Style>
+
+        <Polygon>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        78.487200,17.385600,0
+                        78.489300,17.386500,0
+                        78.491600,17.384900,0
+                        78.490200,17.383200,0
+                        78.488700,17.382700,0
+                        78.486900,17.383800,0
+                        78.487200,17.385600,0
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+</Document>
+</kml>

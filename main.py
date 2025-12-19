@@ -1,5 +1,5 @@
 from lxml import etree
-from mover import generate_lawnmower_waypoints_irregular
+from mover import generate_refined_coverage
 
 def extract_boundary_from_kml(kml_file):
     tree = etree.parse(kml_file)
@@ -30,9 +30,9 @@ ALTITUDE_FEET = 50
 ALTITUDE_METERS = ALTITUDE_FEET * 0.3048
 
 
-boundary = extract_boundary_from_kml("mission_area_aoi.kml")
+boundary = extract_boundary_from_kml("mission_area_aoi_2.kml")
 
-waypoints = generate_lawnmower_waypoints_irregular(boundary, ALTITUDE_METERS)
+waypoints = generate_refined_coverage(boundary, ALTITUDE_METERS)
 
 print(boundary)
 
